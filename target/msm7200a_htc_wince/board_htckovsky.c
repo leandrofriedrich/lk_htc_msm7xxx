@@ -702,7 +702,10 @@ static void htckovsky_init(void) {
 	htckovsky_usb_init();
 	htckovsky_nand_init();
 	htckovsky_gpio_keys_init();
-	printf("press POWER for FASTBOOT or CAMERA for RECOVERY mode\n");
+	printf("\n\n===========================\n\n");
+	printf(" press  CAMERA  for  RECOVERY\n");
+	printf(" press  POWER  for  FASTBOOT\n");
+	printf("\n===========================\n\n");
 }
 
 static void htckovsky_exit(void) {
