@@ -7,7 +7,8 @@ OBJS += \
 	$(LOCAL_DIR)/timer.o \
 	$(LOCAL_DIR)/debug.o \
 	$(LOCAL_DIR)/mddi.o \
-	$(LOCAL_DIR)/hsusb.o
+	$(LOCAL_DIR)/hsusb.o \
+	$(LOCAL_DIR)/lcdc.o
 
 ifeq ($(MSM_NAND_WINCE),1)
 	OBJS += $(LOCAL_DIR)/nand_wince.o
